@@ -33,7 +33,7 @@ const HeroSection = () => {
             technology.
           </p>
         </div>
-        <div className="w-full absolute left-14 top-20 mobile:top-5 mobile:left-3">
+        <div className="w-full absolute left-5 top-10 mobile:top-5 mobile:left-3">
           <p className="text-indigo-900 font-bold mb-6">Glad you're here</p>
           <p className="text-2xl">
             I am
@@ -42,7 +42,7 @@ const HeroSection = () => {
               Kaung Htet San
             </span>
           </p>
-          <p className="text-4xl mt-3 mobile:text-[29px]">
+          <div className="text-4xl mt-3 mobile:text-[29px]">
             <Typewriter
               options={{
                 strings: [
@@ -54,12 +54,12 @@ const HeroSection = () => {
                 loop: true,
               }}
             />
-          </p>
+          </div>
         </div>
         <img
           src={profile}
           alt="dev image"
-          className="w-[280px] h-[280px] rounded-full"
+          className="w-[280px] h-[280px] rounded-full mt-10"
         />
         <div className="self-start laptop:pl-16 flex gap-4 text-[#dfb26e] mobile:hidden">
           <a href="">
